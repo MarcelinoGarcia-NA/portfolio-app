@@ -1,0 +1,22 @@
+.title-page{
+    width: 100%;
+    height: 50px;
+    font-family: fantasy;
+    margin-left: 10%;
+}
+.nav-wrapper{
+    background-color: rgb(4, 24, 12);
+}
+.btn-login-menu{
+    background-color: rgb(9, 87, 87);
+}
+
+@media screen and (min-width: 80px) and (max-width: 1200px) { 
+    nav{
+        height: 70px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
