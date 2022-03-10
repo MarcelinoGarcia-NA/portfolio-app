@@ -545,12 +545,12 @@
 }
 .container-project{
     width:100%;
-    height: 1400px;
+    height: 1500px;
     background-color: rgb(21, 24, 24);
 }
 .project-primary,.project-second,.project-tree{
     width: 90%;
-    height: 500px;
+    height: 400px;
     float: left;
 }
 .title-project{
@@ -562,7 +562,7 @@
     font-family: Gill Sans Extrabold, sans-serif;
 }
 .contaider_project_images{
-    max-width:90%;
+    max-width:100%;
     max-height:400px;
     width: auto;
     height: auto;
@@ -585,8 +585,8 @@
     font-family: Gill Sans Extrabold, sans-serif;
 }
 .btn-view{
-    width: 50%;
-    margin-left: 30%;
+    width: 60%;
+    margin-left: 26%;
     margin-top: 20px;
     height: 30px;
     border: none;
@@ -595,4 +595,43 @@
     background-color: rgba(226, 64, 43, 0.712);
     color:white;
 }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .container-project{
+        height: 1800px;     
+    }
+    .title_project{
+        color: white;
+        width: 50%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 25%;
+        text-align: center;
+        font-size: medium;
+        font-family: Gill Sans Extrabold, sans-serif;
+    }
+    .project-primary,.project-second,.project-tree{
+        width: 90%;
+        margin-left: 5%;
+        height: 550px;
+    }
+    
+    .contaider_project_images{
+        max-width:90%;
+        max-height:400px;
+    }
+    .btn-view{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 900px) and  (max-width: 1300px) {
+        .contaider-body{
+            width: 85%;
+        }
+        .contaider-info{
+            width: 80%;
+        }
+
 }
