@@ -148,7 +148,7 @@ export default function View() {
                         <div class="project-tree">
                             <h3 class="title_project">{dados.name_project_three.toUpperCase()}</h3>
                             <img class="contaider_project_images" src={dados.link_photo_project_three}></img>
-                            <a href={dados.link_project_primary}>
+                            <a href={dados.link_project_thee}>
                                 <button class="btn-view">VER MAIS</button>
                             </a>
                         </div>
